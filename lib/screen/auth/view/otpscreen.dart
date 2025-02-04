@@ -22,6 +22,7 @@ class _OTPVerificationScreenState extends State<OTPVerificationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: lightblue,
       appBar: AppBar(leading: backIconButton(),backgroundColor: lightblue,surfaceTintColor: lightblue,),
       body: Stack(

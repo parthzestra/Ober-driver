@@ -1,11 +1,9 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dash/flutter_dash.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:ober_driver_app/constant/colors.dart';
 import 'package:ober_driver_app/constant/images.dart';
-import 'package:ober_driver_app/constant/primarybutton.dart';
 import 'package:ober_driver_app/constant/textwidget.dart';
 import 'package:ober_driver_app/screen/home/controller/homcontroller.dart';
 import 'package:ober_driver_app/screen/home/view/2minscreen.dart';
@@ -19,7 +17,6 @@ class PickingupScreen2 extends StatefulWidget {
 
 class _PickingupScreen2State extends State<PickingupScreen2> {
   var homecontroller = Get.put(HomeController());
-  final _controller01 = ValueNotifier<bool>(false);
   @override
   Widget build(BuildContext context) {
     return Scaffold(

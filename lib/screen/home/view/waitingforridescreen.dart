@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dash/flutter_dash.dart';
 import 'package:flutter_svg/svg.dart';
@@ -20,7 +19,6 @@ class WaitingforRideScreen extends StatefulWidget {
 
 class _WaitingforRideScreenState extends State<WaitingforRideScreen> {
   var homecontroller = Get.put(HomeController());
-  final _controller01 = ValueNotifier<bool>(false);
   @override
   Widget build(BuildContext context) {
     return Scaffold(

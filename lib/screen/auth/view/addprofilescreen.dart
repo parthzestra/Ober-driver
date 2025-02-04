@@ -26,6 +26,7 @@ class _AddProfileScreenState extends State<AddProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         leading: backIconButton(),
         title: semiBoldText("Add Profile", black, 22),

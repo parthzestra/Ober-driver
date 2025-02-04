@@ -22,6 +22,7 @@ class _AddDetailScreenState extends State<AddDetailScreen> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: white,
       appBar: AppBar(backgroundColor: white,leading: backIconButton(),title: semiBoldText("Add Detail", black, 22),),
       body: Stack(
